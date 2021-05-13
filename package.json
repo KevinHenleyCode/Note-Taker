@@ -2,14 +2,17 @@
   "name": "note-taker",
   "version": "1.0.0",
   "description": "week 11 homework",
-  "main": "server.js",
+  "main": "Develop/public/assets/js/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server",
+    "dev": "nodemon server"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "nodemon": "^2.0.7"
   },
   "repository": {
     "type": "git",
