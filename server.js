@@ -15,5 +15,5 @@ app.get('/notes', (req, res) => {
    res.sendFile(path.resolve(__dirname + '/notes.html'))
 })
 
-app.listen(PORT, () => console.log(`Port: ${PORT} has started.`))
+app.listen(process.env.PORT || PORT, () => console.log(`Port: ${PORT} has started.`))
 
